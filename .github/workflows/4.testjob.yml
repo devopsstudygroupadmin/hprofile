@@ -1,7 +1,7 @@
-name: Hprofile Actions
+name: Hprofile Maven Actions
 on: workflow_dispatch
 jobs:
-  Testing:
+  MavenTesting:
     runs-on: ubuntu-latest
     steps:
       - name: Code checkout
